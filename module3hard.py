@@ -18,7 +18,6 @@ def calculate_structure_sum(data_str):
             sum_element += len(i)
         elif isinstance(i, int):
             sum_element += i
-
     return sum_element
 
 result = calculate_structure_sum(data_structure)
